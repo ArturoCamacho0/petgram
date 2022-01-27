@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 module.exports = {
   env: {
     browser: true,
@@ -5,28 +6,28 @@ module.exports = {
     node: true,
   },
   extends: [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:import/errors",
-    "plugin:jsx-a11y/recommended",
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:import/errors',
+    'plugin:jsx-a11y/recommended',
   ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
-  plugins: ["react", "import", "jsx-a11y"],
+  plugins: ['react', 'import', 'jsx-a11y'],
   rules: {
-    "react/prop-types": 0,
-    indent: ["error", 2],
-    "linebreak-style": ["error", "windows"],
-    quotes: ["error", "single"],
+    'react/prop-types': 0,
+    indent: ['error', 2],
+    'linebreak-style': ['error', 'windows'],
+    quotes: ['error', 'single'],
   },
   settings: {
     react: {
-      version: "detect",
+      version: 'detect',
     },
   },
 };

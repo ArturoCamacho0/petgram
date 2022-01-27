@@ -20,7 +20,7 @@ function useCategoryData() {
 export const ListOfCategories = () => {
   const { categories, loading } = useCategoryData();
   const [showFixed, setShowFixed] = useState(false);
-
+  
   useEffect(function () {
     const onScroll = () => {
       const newShowFixed = window.scrollY > 200;
@@ -42,7 +42,7 @@ export const ListOfCategories = () => {
     </List>
   );
 
-  if(loading) return 'Cargando...';
+  if (loading) return 'Cargando...';
 
   return (
     <Fragment>
