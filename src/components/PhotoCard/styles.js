@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { fadeIn } from "../../styles/Animation";
+import styled from 'styled-components';
+import { fadeIn } from '../../styles/Animation';
 
 export const ImgWrapper = styled.div`
   display: block;
@@ -12,7 +12,7 @@ export const ImgWrapper = styled.div`
 `;
 
 export const Image = styled.img`
-  ${fadeIn({time: "0.5s", type: "ease-in-out"})};
+  ${fadeIn({time: '0.5s', type: 'ease-in-out'})};
   box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2);
   height: 100%;
   object-fit: cover;

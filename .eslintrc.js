@@ -22,7 +22,7 @@ module.exports = {
     "react/prop-types": 0,
     indent: ["error", 2],
     "linebreak-style": ["error", "windows"],
-    quotes: ["error", "double"],
+    quotes: ["error", "single"],
   },
   settings: {
     react: {

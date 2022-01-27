@@ -1,6 +1,6 @@
-import React from "react";
-import { PhotoCard } from "../";
-import db from "../../../../api/db.json";
+import React from 'react';
+import { PhotoCard } from '../';
+import db from '../../../../api/db.json';
 
 export const ListOfPhotoCards = () => {
   return (

@@ -1,5 +1,5 @@
-import * as React from "react";
-import { Svg } from "./styles";
+import * as React from 'react';
+import { Svg } from './styles';
 
 export const Logo = (props) => (
   <Svg
@@ -8,7 +8,7 @@ export const Logo = (props) => (
     xmlns="http://www.w3.org/2000/svg"
     viewBox="61.725 15.8 376.55 118.4"
     style={{
-      background: "0 0",
+      background: '0 0',
     }}
     preserveAspectRatio="xMidYMid"
     {...props}
